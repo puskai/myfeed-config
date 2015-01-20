@@ -11,6 +11,10 @@ endpoints:
 
 eureka:
   client:
-    registryFetchIntervalSeconds: 10
+    registryFetchIntervalSeconds: 5
     serviceUrl:
       defaultZone: http://discovery.myfeed.com:11010/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    metadataMap:
+      instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${server.port}}}
