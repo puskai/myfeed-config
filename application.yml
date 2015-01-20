@@ -11,5 +11,6 @@ endpoints:
 
 eureka:
   client:
+    registryFetchIntervalSeconds: 10
     serviceUrl:
       defaultZone: http://discovery.myfeed.com:11010/eureka/
