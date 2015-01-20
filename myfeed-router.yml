@@ -1,3 +1,6 @@
 zuul:
   routes:
     myfeed-ui: /**
+    myfeed-admin: /admin/**
+    myfeed-user: /user/**
+    myfeed-feed: /feed/**
