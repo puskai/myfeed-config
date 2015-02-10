@@ -4,8 +4,4 @@ zuul:
     myfeed-admin: /admin/**
     myfeed-user: /user/**
     myfeed-feed: /feed/**
-  ignored-services:
-    - myfeed-ui
-    - myfeed-admin
-    - myfeed-user
-    - myfeed-feed
+  ignored-services: '*'
