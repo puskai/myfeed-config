@@ -2,7 +2,7 @@ info:
   url: https://github.com/spencergibb/myfeed
 
 gh84:
-  test: {cipher}fedcbf7b7eb206f84c29baa205a4090546c2b7b59523076958a5ea5d8eddd116
+  test: '{cipher}fedcbf7b7eb206f84c29baa205a4090546c2b7b59523076958a5ea5d8eddd116'
 
 endpoints:
   restart:
