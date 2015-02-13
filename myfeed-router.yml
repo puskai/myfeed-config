@@ -1,7 +1,9 @@
 zuul:
   routes:
     myfeed-ui: /**
-    myfeed-admin: /admin/**
+    myfeed-admin:
+      path: /admin/**
+      strip-prefix: false
     myfeed-user: /user/**
     myfeed-feed: /feed/**
   ignored-services: '*'
