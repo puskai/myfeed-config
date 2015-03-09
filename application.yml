@@ -1,8 +1,8 @@
 info:
   url: https://github.com/spencergibb/myfeed
 
-gh84:
-  test: '{cipher}fedcbf7b7eb206f84c29baa205a4090546c2b7b59523076958a5ea5d8eddd116'
+encrypted:
+  password: '{cipher}1554a10a55f87c4693ae652198dfca2c71b2a89293689fa21321ac77270860ae'
 
 endpoints:
   restart:
