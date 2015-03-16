@@ -16,7 +16,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 5
     serviceUrl:
-      defaultZone: http://discovery.myfeed.com:11010/eureka/
+      defaultZone: http://localhost:11010/eureka/
   instance:
     leaseRenewalIntervalInSeconds: 10
     metadataMap:
